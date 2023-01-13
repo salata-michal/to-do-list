@@ -12,3 +12,11 @@ body {
     font-family: "Montserrat", sans-serif;
     background-color: #ddd;
 }
+
+.list__item {
+    list-style-type: none;
+}
+
+.list__item--done {
+    text-decoration: line-through;
+}

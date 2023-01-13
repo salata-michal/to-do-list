@@ -23,10 +23,8 @@
 
 }
 
-.list__item {
-    list-style-type: none;
-}
-
-.list__item--done {
-    text-decoration: line-through;
+.tasks__button {
+    background-color:rgb(205, 45, 45);
+    color: white;
+    border-color: white;
 }
