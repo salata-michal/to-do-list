@@ -16,3 +16,17 @@
     padding: 20px;
     border-bottom: 1px solid #ddd;
 }
+
+.section__tasks {
+    margin: 0;
+    padding: 20px;
+
+}
+
+.list__item {
+    list-style-type: none;
+}
+
+.list__item--done {
+    text-decoration: line-through;
+}
