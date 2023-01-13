@@ -1,0 +1,21 @@
+.form {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 20px;
+    border-bottom: 10px solid #ddd;
+}
+    @media(max-width: 767px) {
+        .form {
+            grid-template-columns: 1fr;
+        }
+
+}
+
+.form__button {
+    background-color: teal;
+    color: white;
+    padding: 10px 10px;
+    border-style: none;
+    font-size: 15px;
+}
