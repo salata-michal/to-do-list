@@ -1,0 +1,10 @@
+.list {
+    list-style-type: none;
+}
+
+
+.list__item--done {
+    text-decoration: line-through;
+}
+
+
