@@ -12,10 +12,22 @@
 
 }
 
+.form__input {
+    border: solid 2px #ddd;
+}
+
 .form__button {
-    background-color: teal;
+    background-color: hsl(180, 100%, 25%);
     color: white;
     padding: 10px 10px;
     border-style: none;
     font-size: 15px;
+}
+
+.form__button:hover {
+    background-color: hsl(180, 100%, 30%);
+}
+
+.form__button:active {
+    background-color: hsl(180, 100%, 35%);
 }
