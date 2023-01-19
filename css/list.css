@@ -4,9 +4,13 @@
     grid-template-columns: auto 1fr auto;
     padding: 10px;
     grid-gap: 20px;
-    border-bottom: 1px solid rgb(227, 225, 225);
+    border-bottom: 1px solid hsl(0, 5%, 92%);
 }
 
+.tasks {
+    margin: 0;
+    padding: 20px;
+}
 
 .list__item--done {
     text-decoration: line-through;
