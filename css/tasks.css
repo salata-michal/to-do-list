@@ -29,7 +29,7 @@
     width: 30px;
     height: 30px;
     padding: 0px;
-    transition: 0,3s;
+    transition: background 0.5s;
 }
 
 .tasks__button--toggleDone {

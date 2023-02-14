@@ -1,8 +1,12 @@
 .section {
-    border: 1px solid #ddd;
     margin: 0 auto;
     background-color: white;
     
+}
+
+.section__title {
+    font-size: 20px;
+    margin: 0;
 }
 
 .section__header {
