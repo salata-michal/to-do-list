@@ -1,7 +1,12 @@
 .section {
-    margin: 0 auto;
+    margin: 10px 0;
     background-color: white;
+    box-shadow: 0 0 5px #ddd;
     
+}
+
+.section__body {
+    padding: 20px;
 }
 
 .section__title {
@@ -11,17 +16,19 @@
 
 .section__header {
     border-bottom: 1px solid #ddd;
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-gap: 20px;
-    justify-content: space-between;
-    align-items: center;
     padding: 20px;
     margin: 0;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 24px;
+    justify-content: space-between;
+    align-items: center;
 }
+
 
 @media(max-width: 767px) {
     .section__header {
         grid-template-columns: 1fr;
     }
 }
+

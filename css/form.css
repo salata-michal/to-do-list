@@ -1,9 +1,8 @@
 .form {
-    padding: 20px;
     display: grid;
     grid-template-columns: 1fr auto;
     gap: 20px;
-    border-bottom: 10px solid hsl(0, 5%, 92%);
+    
 }
     @media(max-width: 767px) {
         .form {
