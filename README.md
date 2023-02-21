@@ -7,7 +7,8 @@
  This application allows us to add tasks to the task list and allows you to mark whether it has been done and delete a given task.
  
  ## How use app
- ![c81a339f-41ec-4988-9d3a-3f9f10f6a550](https://user-images.githubusercontent.com/120677379/213264111-e8babee8-9de8-4b7c-a3b1-f288a835b0c3.gif)
+ !![9e44b468-01c3-4980-9d30-00dc3ca70be9](https://user-images.githubusercontent.com/120677379/220436191-4cf5f4a1-aee3-45db-bd2e-b39ee1a04d6f.gif)
+
 
  
  
@@ -19,3 +20,4 @@
 - BEM
 - GIT
 - GRID
+- IMMUTABILITY
