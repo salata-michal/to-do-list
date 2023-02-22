@@ -4,7 +4,7 @@
 
     const toggleHideDoneTasks = () => {
         hideDoneTasks = !hideDoneTasks;
-        
+
         render();
     };
 
@@ -27,7 +27,7 @@
             ...tasks.slice(0, taskIndex),
             ...tasks.slice(taskIndex + 1)
         ];
-        
+
         render();
 
     };
@@ -75,7 +75,7 @@
     };
 
     const renderTasks = () => {
-        let taskToHTML = (task) => `
+        const taskToHTML = (task) => `
               <li
                 class="tasks__item ${task.done && hideDoneTasks ? "tasks__item--hidden" : ""
             } js-tasks">
